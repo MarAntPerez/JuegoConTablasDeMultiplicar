@@ -4,22 +4,43 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
+	/**Este programa es un juego para aprender tablas de multiplicar y sumas**/
 	
+	/**Esta constante guarda la primer respuesta correcta**/
 	const int RESPUESTA_CORRECTA = 1;
+	
+	/**Esta contante guarda la segunda respuesta correcta**/
 	const int RESPUESTA_CORRECTA_DOS = 2;
+	
+	/**Esta constante guarda la opcion salir**/
 	const int OPCION_SALIR = -1;
+	
+	/**Esta constante guarda el rango del numereo random para elegir respuesta correcta dos**/
 	const int RANGO_RANDOM = 21;
+	
+	/*Esta constante restrige el numero random pra elegir  la respuesta correcta uno*/
 	const int MAXIMO_RESULTADO_UNO = 10;
+	
+	/**Esta constante incrementa el valor de un resultado para que este sea falso**/
 	const int INCREMENTO_RESULTADO_FALSO = 9;
 		
+	/**Estas vavariables de tipo entero guradan los numeros ingresados por el usuario**/
 	int numberOne;
 	int numberTwo;
 	
+	/**Esta variable de tipo emtero guarda un numero de tipo entero entre 0 y 21 con un rand**/
 	int numeroRandom;
+	
+	/**Esta variable de tipo entero guarda el juego seleccionado por el ususario**/
 	int juegoSeleccionado;
 	
+	/**Esta variable de tipo entero guarda el resultado de la multiplicacion**/
 	int resultadoMultiplicacion;
+	
+	/*Esta variable de tipo enmtero guarda el resultado de la suma*/
 	int resultadoSuma;
+	
+	/**Esta variable de tipo entero guarda el resultado seleccionado por el usuario**/
 	int resultadoSeleccionado;
 	
 	
